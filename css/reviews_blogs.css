@@ -1,0 +1,52 @@
+/* Review Section */
+.review .container {
+    white-space: nowrap;
+    overflow: auto hidden;
+    height: fit-content;
+}
+
+.review .container>div {
+    width: 360px;
+    height: 180px;
+    max-width: 80vw;
+
+    border: 3px solid var(--color-black-light);
+    transform: skew(calc(var(--skew-angle) * -0.75));
+    margin-left: 10px;
+}
+
+.review .container>div>* {
+    transform: skew(calc(var(--skew-angle) * 0.75));
+}
+
+.review .container div {
+    color: var(--color-white);
+    font-size: 14.5px;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.review .comment {
+    white-space: wrap;
+    text-align: center;
+    height: 90px;
+    overflow: hidden;
+}
+
+/* Blogs Section */
+.blogs .my-card {
+    width: 22rem;
+    margin: 0.5rem;
+    display: inline-block;
+    background-color: var(--color-black-light);
+}
+
+.blogs .blog-heading {
+    color: white;
+    font-weight: 800;
+    font-family: var(--font-2);
+    font-size: 21px;
+}

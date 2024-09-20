@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <title>GameX - A World Gaming Platform</title>
+
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/hero_games.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="stylesheet" href="./css/reviews_blogs.css">
+    <link rel="stylesheet" href="./css/contact_footer.css" />
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand flexbox" href="#">
+                <span>
+                    <i class="fa-solid fa-gamepad" style="margin-right: 5px"></i>
+                    GameX
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#games">
+                            <span>GAMES</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">
+                            <span>PRODUCTS</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blogs">
+                            <span>BLOGS</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <span>CONTACT</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero flexbox">
+        <div class="container flexbox" style="flex-direction: column">
+            <h3 class="golden-text" style="font-weight: 600; font-size: 20px">
+                World Gaming
+            </h3>
+            <h1>
+                Welcome to
+                <span class="golden-text">GameX</span>
+            </h1>
+            <p class="px-4 mx-4" style="color: var(--color-white); text-align: center; font-size: 14.5px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                bibendum neque non metus laoreet, ac feugiat velit semper. Donec
+                eleifend, ipsum vitae convallis pharetra, velit neque semper sapien,
+                et pellentesque nisi velit et velit.
+            </p>
+            <a href="#games" class="hero-btn">
+                <span>DISCOVER GAMES</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games flexbox" style="flex-direction: column">
+        <h2>
+            FEATURED
+            <span class="golden-text">GAMES</span>
+        </h2>
+        <img src="./images/title-underline.png" alt="" srcset="" />
+        <div id="games-container" class="container my-5 flexbox" style="flex-wrap: wrap;"></div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products flexbox" style="flex-direction: column;">
+        <h2>
+            GAMING
+            <span class="golden-text">PRODUCTS</span>
+        </h2>
+        <img src="./images/title-underline.png" alt="" srcset="" />
+        <div class="container my-5 flexbox" id="product-container" style="flex-wrap: wrap;"></div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs flexbox" style="flex-direction: column">
+        <h2>OUR <span class="golden-text">BLOGS</span></h2>
+        <img src="./images/title-underline.png" alt="" srcset="" />
+        <div class="container my-5 flexbox" style="flex-wrap: wrap;">
+            <div class="my-card mb-3">
+                <img src="./images/blogs/blog-1.jpg" alt="" width="100%">
+                <div class="px-4 mb-2 mt-3" style="font-size: 13px;">
+                    <i class="fa-regular fa-user golden-text"></i>
+                    <span class="mx-1" style="color: white; font-family: var(--font-2);">ADMIN</span>
+                    <span style="display: inline-block; width: 10px;"></span>
+                    <i class="fa-regular fa-calendar-days golden-text"></i>
+                    <span class="mx-1" style="color: white; font-family: var(--font-2);">OCTOBER 02, 2024</span>
+                </div>
+                <h4 class="px-4 blog-heading">SHOOTER ACTION VIDEO</h4>
+                <p class="px-4" style="font-size: 14px; color: var(--color-white);">Lorem ipsum dolor sit amet elit.
+                    Quisquam labore corporis eius enim esse doloribus, ullam cum sed velit.</p>
+                <button class="mx-4 mb-3 play-btn">
+                    <span>READ MORE</span>
+                </button>
+            </div>
+            <div class="my-card mb-3">
+                <img src="./images/blogs/blog-2.jpg" alt="" width="100%">
+                <div class="px-4 mb-2 mt-3" style="font-size: 13px;">
+                    <i class="fa-regular fa-user golden-text"></i>
+                    <span class="mx-1" style="color: white; font-family: var(--font-2);">ADMIN</span>
+                    <span style="display: inline-block; width: 10px;"></span>
+                    <i class="fa-regular fa-calendar-days golden-text"></i>
+                    <span class="mx-1" style="color: white; font-family: var(--font-2);">OCTOBER 02, 2024</span>
+                </div>
+                <h4 class="px-4 blog-heading">THE WALKING UNDEAD</h4>
+                <p class="px-4" style="font-size: 14px; color: var(--color-white);">Lorem ipsum dolor sit amet elit.
+                    Quisquam labore corporis eius enim esse doloribus, ullam cum sed velit.</p>
+                <button class="mx-4 mb-3 play-btn">
+                    <span>READ MORE</span>
+                </button>
+            </div>
+            <div class="my-card mb-3">
+                <img src="./images/blogs/blog-3.jpg" alt="" width="100%">
+                <div class="px-4 mb-2 mt-3" style="font-size: 13px;">
+                    <i class="fa-regular fa-user golden-text"></i>
+                    <span class="mx-1" style="color: white; font-family: var(--font-2);">ADMIN</span>
+                    <span style="display: inline-block; width: 10px;"></span>
+                    <i class="fa-regular fa-calendar-days golden-text"></i>
+                    <span class="mx-1" style="color: white; font-family: var(--font-2);">OCTOBER 02, 2024</span>
+                </div>
+                <h4 class="px-4 blog-heading">DEFENCE OF THE ANCIENTS</h4>
+                <p class="px-4" style="font-size: 14px; color: var(--color-white);">Lorem ipsum dolor sit amet elit.
+                    Quisquam labore corporis eius enim esse doloribus, ullam cum sed velit.</p>
+                <button class="mx-4 mb-3 play-btn">
+                    <span>READ MORE</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="review" class="review flexbox" style="flex-direction: column">
+        <h2>GAMER <span class="golden-text">REVIEWS</span></h2>
+        <img src="./images/title-underline.png" alt="" srcset="" />
+        <div class="container mt-5"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container mb-4">
+            <div class="row" style="justify-content: center">
+                <div class="col-md-5 m-3">
+                    <img class="container-fluid" style="border-radius: 8px" src="./images/hero-banner.png" alt="" />
+                </div>
+                <div class="col-md-5 m-3">
+                    <div class="flex-box-fluid">
+                        <div class="container-fluid">
+                            <h2 class="mt-4">
+                                WRITE A
+                                <span class="golden-text">REVIEW</span>
+                            </h2>
+                            <p style="color: var(--color-white);">
+                                <i class="fa-solid fa-user golden-text"></i> Full Name
+                            </p>
+                            <div class="wrapper">
+                                <input type="text" placeholder="Enter Your Name" />
+                            </div>
+                            <p style="color: var(--color-white);">
+                                <i class="fa-solid fa-envelope golden-text"></i> Enter Your
+                                Email
+                            </p>
+                            <div class="wrapper">
+                                <input type="text" placeholder="Enter Your Email" />
+                            </div>
+                            <p style="color: var(--color-white);">
+                                <i class="fa-solid fa-message golden-text"></i> Message
+                            </p>
+                            <div class="wrapper">
+                                <textarea placeholder="Type Your Message Here"></textarea>
+                            </div>
+                            <button class="hero-btn my-3 mb-5">
+                                <span>SUBMIT</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="footer flexbox" style="flex-direction: column;">
+        <div class="newsletter flexbox" style="flex-direction: column;">
+            <h2 style="font-size: 20px;">
+                JOIN OUR
+                <span class="golden-text">NEWSLETTER</span>
+            </h2>
+            <div class="flexbox">
+                <div class="wrapper mx-2">
+                    <i class="fa-regular fa-envelope mail-icon mx-1"></i>
+                    <input type="text" placeholder="Enter Your Email" style="display: inline;" />
+                </div>
+                <button class="hero-btn" style="display: inline;">
+                    <span>SUBSCRIBE <i class="fa-solid fa-rocket mx-1"></i></span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-4">
+                    <h1>
+                        <i class="fa-solid fa-gamepad" style="color: var(--color-gold)"></i>
+                        &nbsp;GameX
+                    </h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dicta
+                        dolores esse nostrum deserunt ipsa amet consequuntur culpa ut
+                        minima. Cumque dolore vel natus error consectetur est ex
+                        repudiandae voluptate.
+                    </p>
+                    <div class="brands flexbox">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="brands flexbox">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="brands flexbox">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="brands flexbox">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </div>
+                    <div class="brands flexbox">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 mb-2">
+                    <h1>Quick Links</h1>
+                    <ul>
+                        <li><a class="hover" href="#home">Home</a></li>
+                        <li><a class="hover" href="#games">Games</a></li>
+                        <li><a class="hover" href="#products">Products</a></li>
+                        <li><a class="hover" href="#blogs">Blogs</a></li>
+                        <li><a class="hover" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h1>Contact Us</h1>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-phone golden-text"></i>
+                            <span class="hover">+91 98765 43210</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope golden-text"></i>
+                            <span class="hover">travelwithus@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-map-location-dot golden-text"></i>
+                            <span class="hover">Kolkata, India - 700118</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <center>
+                    <hr />
+                    <p>
+                        &copy; Copyright 2024 | All Rights Reserved.<br />Created by
+                        Neelabhra Roy
+                    </p>
+                </center>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Js -->
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

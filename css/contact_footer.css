@@ -1,0 +1,153 @@
+/* Contact Section */
+input,
+textarea {
+    width: 100%;
+    padding: 2.5px 6.5px;
+
+    border-radius: 4px;
+    border: 1.5px solid #1a1a1a;
+
+    color: white;
+    background-color: var(--input-color);
+}
+
+textarea {
+    height: 135px;
+    resize: none !important;
+}
+
+.contact i {
+    width: 18px;
+}
+
+.contact p {
+    margin-bottom: 3px;
+    margin-top: 1rem;
+}
+
+.contact .wrapper {
+    padding: 7.25px 10px;
+    background-color: var(--input-color);
+    border-radius: 1px;
+    transform: skew(calc(var(--skew-angle) * -0.75));
+}
+
+.contact .wrapper>input {
+    border: 0;
+    outline: none;
+    width: 100%;
+    transform: skew(calc(var(--skew-angle) * 0.75));
+}
+
+.contact .wrapper>textarea {
+    --width: 96%;
+    border: 0;
+    outline: none;
+
+    width: var(--width);
+    margin: 0 calc((100% - var(--width)) / 2);
+    transform: skew(calc(var(--skew-angle) * 0.75));
+}
+
+/* Footer Section */
+.footer {
+    --bg-color: #0f0f0f;
+    margin-top: 80px;
+    padding: 0px 0 10px 0;
+    background-color: var(--bg-color);
+}
+
+.footer h1 {
+    font-family: var(--font-2);
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer h1,
+.footer p {
+    color: var(--color-white);
+}
+
+.newsletter {
+    --height: 120px;
+
+    width: 600px;
+    height: var(--height);
+    max-width: 100vw;
+
+    padding: 12px 0;
+    border-radius: var(--height);
+
+    position: relative;
+    top: calc(var(--height) / 2 * (-1));
+    background-color: var(--bg-color);
+}
+
+.footer .wrapper {
+    padding: 7.25px 10px;
+    background-color: var(--input-color);
+    border-radius: 1px;
+    transform: skew(calc(var(--skew-angle) * -1));
+}
+
+.footer .wrapper>input {
+    outline: none;
+    border: 0;
+    width: 240px;
+    transform: skew(var(--skew-angle));
+}
+
+.brands {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+
+    color: var(--color-gold);
+    font-size: 24px;
+
+    border: 2px solid var(--color-gold);
+    border-radius: 4.25px;
+}
+
+.footer .brands {
+    margin: 15px 12px 0 0;
+}
+
+.footer .brands:hover {
+    background-color: var(--color-gold);
+    color: black !important;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a,
+.footer ul li {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 15px;
+    margin: 8px 3px;
+}
+
+.footer ul li i {
+    height: 20px;
+    width: 20px;
+}
+
+.footer hr {
+    color: white;
+    margin: 15px 0 25px 0;
+}
+
+.hover:hover {
+    color: var(--color-gold) !important;
+    margin-left: 10px;
+}
+
+.footer .mail-icon {
+    transform: skew(var(--skew-angle));
+    color: var(--color-gold);
+}
